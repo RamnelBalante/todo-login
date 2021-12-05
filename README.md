@@ -1,42 +1,16 @@
-# Logging Into Firebase
-
-- Download the files from teams week-012 class-2
-- Download lab from assessments practical 3
-
-
-
-
-
-
-In order to complete the task for the lab due Sunday. You will have to have firebase configured and working with next.js and vercel.
-
-If you do not have it configured please watch the video again. You need to create a file in the root of your project call
-```.env.local```. In this file you need to paste in  the keys from the firebase console for the app you setup in the firebase project.
-
-```json
-    NEXT_PUBLIC_FIREBASE_API_KEY=your-key-here
-    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-key-here
-    NEXT_PUBLIC_FIREBASE_DATABASE_URL=your-key-here
-    NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-key-here
-    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-key-here
-    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-key-here
-    NEXT_PUBLIC_FIREBASE_APP_ID=your-key-here
-    NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your-key-here
-``` 
-## CONFIG FILE
-
-```javascript
-   const firebaseCredentials = {
-        apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-        authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-        databaseURL: process.env.NEXT_PUBLIC_FIREBASE_DATABASE_URL,
-        projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-        storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-        messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-        appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-   }
-
-   export firebaseCredentials
-}
+# To download the project:
+# step 1: press ctrl + the squigly line on the top left of your keyboard to open console
+# step 2: type in the console "npm install"
+# step 3: create a file called ".env.local"
+# step 4: Paste the code here:
 ```
- 
+    NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyADikwqkxfhBVcQ42N7htiaBBNBeqqxS3s
+    NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=to-do-project-85e84.firebaseapp.com
+    NEXT_PUBLIC_FIREBASE_DATABASE_URL=https://to-do-project-85e84-default-rtdb.firebaseio.com
+    NEXT_PUBLIC_FIREBASE_PROJECT_ID=to-do-project-85e84
+    NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=to-do-project-85e84.appspot.com
+    NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=334655185386
+    NEXT_PUBLIC_FIREBASE_APP_ID=1:334655185386:web:036ff587cc0d741232d293
+```
+# step 5: go back to the console and type 'npm run dev'
+# step 6: enjoy!
